@@ -80,7 +80,11 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background-image:url(\hero-bg2.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*background: #040b14;*/
   overflow-y: auto;
 }
 
@@ -107,11 +111,12 @@ h6 {
   text-decoration: none;
 }
 
-#header .profile .social-links a {
+/*##############################    Cor icones sociais    ########################################*/
+#header .profile .social-links a { 
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  background: #ffffff;
+  color: #872bc5;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -121,7 +126,7 @@ h6 {
   height: 36px;
   transition: 0.3s;
 }
-
+/*##############################################################################################*/
 #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
@@ -190,22 +195,23 @@ h6 {
   padding-right: 8px;
   color: #6f7180;
 }
-
+/*##############################    Cor texto de navegação    #################################*/
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
-
+/*##############################################################################################*/
+/*##############################    Cor icones de navegação    #################################*/
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color:#6193d4;
 }
-
+/*##############################################################################################*/
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -217,7 +223,7 @@ h6 {
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
-  color: #fff;
+  color: #149ddd;
   width: 40px;
   height: 40px;
   display: inline-flex;
