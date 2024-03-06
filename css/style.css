@@ -177,6 +177,30 @@ h6 {
   position: relative;
   white-space: nowrap;
 }
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    TESTE    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.nav-menu teste,
+.nav-menu teste:focus {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+  background-color: #ffffff00; /* Cor de fundo da caixa */
+  border: 2px solid #ffffff00; /* Borda da caixa */
+  border-radius: 5px; /* Borda arredondada */
+  
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
 /*##############################    Cor Letras e barra de navegação    #################################*/
 .nav-menu a,
 .nav-menu a:focus {
@@ -296,13 +320,13 @@ h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
-
-@media (min-width: 1024px) {
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TESTE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
-
+} */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
