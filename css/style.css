@@ -183,7 +183,7 @@ h6 {
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    TESTE    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .nav-menu teste,
-.nav-menu teste:focus {
+.nav-menu :focus {
   display: flex;
   align-items: center;
   color: #000000;
