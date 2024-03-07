@@ -499,10 +499,15 @@ section {
 }
 
 .skills .progress-bar {
-  width: 1px;
+  width: 0; /* Definindo a largura inicial como zero */
   height: 10px;
-  transition: 0.9s;
   background-color: #149ddd;
+  animation: progressAnimation 2s ease forwards; /* Adicionando uma animação */
+}
+
+@keyframes progressAnimation {
+  from { width: 0; } /* Largura inicial da barra de progresso */
+  to { width: calc(var(--progress-value) * 1%); } /* Largura final baseada no valor da habilidade */
 }
 
 /*--------------------------------------------------------------
