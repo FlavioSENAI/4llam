@@ -4,6 +4,13 @@
 # General
 --------------------------------------------------------------*/
 
+
+/*########################################## padrão de cores ##############################################################
+Clara: #2DDDF3
+Média: #149ddd
+Escura: #194F6B
+################################################################################################################################*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*##############################    Recuo textual    ########################################*/
@@ -46,7 +53,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #2DDDF3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -60,7 +67,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #2DDDF3;
   color: #fff;
 }
 
@@ -118,7 +125,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #ffffff;
-  color: #872bc5;
+  color: #2DDDF3;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -232,7 +239,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #2179fd;
+  color: #2DDDF3;
 }
 /*##############################################################################################*/
 /*##############################    Cor icones de navegação reativo   #################################*/
@@ -240,7 +247,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color:#2179fd;
+  color:#2DDDF3;
 }
 /*##############################################################################################*/
 /* Mobile Navigation */
@@ -351,7 +358,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #149ddd10;
 }
 
 .section-title {
@@ -364,7 +371,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #194f6b;
 }
 
 .section-title h2::after {
@@ -373,7 +380,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #194F6B;
   bottom: 0;
   left: 0;
 }
@@ -388,7 +395,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #194F6B;
 }
 
 .about .content ul {
@@ -451,21 +458,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #194F6B;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: #149ddd;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #149ddd;
 }
 
 /*--------------------------------------------------------------
@@ -494,7 +501,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #ffffff;
   height: 10px;
 }
 
@@ -519,7 +526,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #194F6B;
   position: relative;
 }
 
@@ -529,13 +536,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #194F6B;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #2ddcf328;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
