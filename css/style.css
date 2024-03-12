@@ -25,6 +25,15 @@ Escura: #194F6B
 }
 /*##############################################################################################*/
 
+/*##############################    Espaçamento menor    ########################################*/
+.paragrafo-separado {
+  margin-top: 1px; /* Ajuste este valor conforme necessário */
+}
+.paragrafo-separado {
+  margin-bottom: 5px; /* Ajuste este valor conforme necessário */
+}
+/*##############################################################################################*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -526,7 +535,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #194F6B;
 }
 
 .resume .resume-item {
